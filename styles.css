@@ -43,10 +43,11 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
     background-color: var(--main-dark);  
+    color: var(--main-white);
 }
 
-.header {
-    color: var(--main-white);
+.header,
+.hero {
     padding: 1rem;
     margin: auto;
     max-width: 1080px;
@@ -54,6 +55,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-bottom: 2rem;
+    gap: 2rem;
 }
 
 .header__text {
@@ -73,11 +77,35 @@ li {
 
 a {
     text-decoration: none;
-    color: inherit;
     font-size: 18px;
+    color: var(--main-gray)
 }
 
 a:hover {
-    text-decoration: underline;
+    opacity: 0.7;
 }
 
+.hero__left,
+.hero__right {
+    width: 50%;
+}
+
+.hero__main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero__seconday {
+    font-size: 18px;
+    color: var(--main-gray)
+}
+
+.hero__button {
+    background-color: var(--main-blue);
+    color: inherit;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 25px;
+    margin-top: 0.75rem;
+    font-size: 18px;
+}
