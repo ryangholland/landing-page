@@ -120,7 +120,8 @@ a:hover {
   font-size: 18px;
 }
 
-.info {
+.info,
+.cta {
   background-color: var(--main-white);
   color: var(--main-dark);
   text-align: center;
@@ -168,4 +169,38 @@ a:hover {
     font-size: 28px;
     font-weight: bold;
     margin-right: 5rem;
+}
+
+.cta__container {
+    max-width: 1080px;
+    margin: auto;
+    background-color: var(--main-blue);
+    padding: 2rem 4rem;
+    color: var(--main-white);
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+
+    text-align: left;
+}
+
+.cta-header {
+    font-size: 28px;
+}
+
+.cta__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta__button {
+    background-color: var(--main-blue);
+    color: var(--main-white);
+    border: solid 2px var(--main-white);
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
 }
