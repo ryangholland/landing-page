@@ -40,3 +40,44 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* Custom Code */
+
+body {
+    background-color: var(--main-dark);  
+}
+
+.header {
+    color: var(--main-white);
+    padding: 1rem;
+    margin: auto;
+    max-width: 1080px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text {
+    font-size: 24px;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+}
+
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
