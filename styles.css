@@ -1,0 +1,42 @@
+/* Variables */
+
+:root {
+    --main-dark: #1F2937;
+    --main-white: #F9FAF8;
+    --main-gray: #E5E7EB;
+    --main-blue: #3882F6;
+}
+
+/* CSS Reset */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Custom Code */
